@@ -66,8 +66,57 @@ public class Uno {
 		//conversión de tipos
 		conversionDatos conver= new conversionDatos();
 		byte algo= 1;
+		System.out.println("Métodos escritos en la conversionDatos:");
 		System.out.println(conver.returnDouble(algo));
 		System.out.println(conver.retunrDouble2(algo));
+		
+		//Ejercicios de la mentoría
+		System.out.println(" ");
+		System.out.println("Ejercicios de la mentoría");
+		
+		int t=0;
+		int f=9;
+		if(t==f)
+			System.out.println("Son iguales");
+		else
+			System.out.println("No son iguales");
+		
+		System.out.println(" ");
+		System.out.println("Operador ternario:");
+		System.out.println((t==f)?"son iguales":"no son iguales");
+
+		System.out.println(" ");
+		String resultado=(t==f)?"son iguales":"no son iguales";
+		System.out.println("Operador ternariox2:");
+		System.out.println(resultado);
+
+		System.out.println(" ");
+		System.out.println("If anidados");
+		if(t>f)
+			System.out.println("t es mayor que f");
+		else if(t<f)
+			System.out.println("t es menor que f");
+		else
+			System.out.println("Son iguales");
+		
+		System.out.println(" ");
+		System.out.println("Switch");
+		
+		switch(t)
+		{
+		case 0:
+			System.out.println("Es 0 ");
+			break;
+		case 1:
+			System.out.println("Es 1");
+			break;
+		case 2:
+			System.out.println("Es 2");
+			break;
+		default:
+			System.out.println("Esta fuera de rango");
+			break;
+		}
 		
 	}
 

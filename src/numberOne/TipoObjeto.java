@@ -40,4 +40,38 @@ public class TipoObjeto {
 	Float fFloat0;
 	Double fDouble0;	
 	Boolean fBoolean;
+	
+	//Declaración de arreglos
+	//Se pueden hacer arreglos tanto de objetos como de primitivas
+	//una forma de hacer arreglos dinámicos es con los Collections
+
+	/****
+	 * Sintaxis:
+	 * Modificadores TipoDeLaVariable[] NombreDelarreglo = new TipoDeVariable[dimension];
+	 * 
+	 * Modificadores TipodeLaVariable[] NombreDelArreglo ={Elemento,...];
+	 * 
+	 * Modificadores TipoDeLaVariable[] NombreDelArreglo;
+	 * NombreDelArreglo = new TipoDeLaVariable[dimensión];
+	 */
+	
+	//arreglo de variables de tipo primitivo
+	long [] arreglo= new long[5];
+	
+	//arreglo de variables de tipo Objeto Wrapper
+	Long [] array0 = new Long[5];
+	
+	//Un array contiene métodos los cuales 
+	//pueden ser accesados al escribir un punto después del nombre del arreglo
+	/*****
+	 * Todos los objetos heredan de la clase Object
+	 * algunos de los metodos mas utilizados son:
+	 * length
+	 * toString
+	 * hashCode
+	 * equals
+	 */
+	Integer [] arrayIntegers = {1,2,3,4,5};
+	
+	
 }

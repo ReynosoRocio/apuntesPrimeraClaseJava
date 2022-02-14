@@ -4,6 +4,9 @@
  */
 package numberOne;
 
+import numberOne.operadores;
+import numberOne.conversionDatos;
+
 /**
  * @author Rocio
  *
@@ -54,6 +57,17 @@ public class Uno {
 		//caracter simple se declara con comillas simples
 		char fChar='v';//Carácter simple 2 byte --
 		
+		
+		//funciones de operadores
+		operadores ope= new operadores();
+		System.out.println("Métodos escritos en la clase operadores:");
+		System.out.println(ope.sumaNew(.15f, 2.3f));
+		
+		//conversión de tipos
+		conversionDatos conver= new conversionDatos();
+		byte algo= 1;
+		System.out.println(conver.returnDouble(algo));
+		System.out.println(conver.retunrDouble2(algo));
 		
 	}
 
